@@ -13,7 +13,7 @@ source:
 
 build:
   skip: true  # [unix]
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -30,7 +30,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Command line tool to edit resources of exe file on Windows.'
+  summary: Command line tool to edit resources of exe file on Windows.
 
 extra:
   recipe-maintainers:
