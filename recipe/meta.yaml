@@ -1,5 +1,5 @@
 {% set name = "rcedit" %}
-{% set version = "1.1.1" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://github.com/electron/rcedit/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 2b3a0c466fb4a1014ea131c2b8ea7c519f9278eba73d6fcb361b7bdb4fd494e9
+  sha256: 2a55a176fc11cc563cd827ef3f55a7afe2aa0dca1ecc8d8d53b1b5afd5cffa20
   patches:
     - 103-version.patch
 
 build:
   skip: true  # [unix]
-  number: 1
+  number: 0
 
 requirements:
   build:
